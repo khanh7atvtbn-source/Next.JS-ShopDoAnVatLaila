@@ -1,8 +1,8 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Shop Đồ Ăn Vặt Laila",
-  description: "Website bán đồ ăn vặt",
+  title: "Next.js LAN",
+  description: "Deploy Next.js on Ubuntu LAN",
 };
 
 export default function RootLayout({
@@ -16,3 +16,4 @@ export default function RootLayout({
     </html>
   );
 }
+
