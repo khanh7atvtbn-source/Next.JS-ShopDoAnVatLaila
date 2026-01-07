@@ -25,7 +25,7 @@ export default function ProductsPage() {
       <section className="product-list">
         <div className="product-container">
           <div className="product-card">
-            <img src="/images/Khoai.jpg" />
+            <img src="/images/khoai.jpg" />
             <h3>Khoai tây chiên</h3>
             <p className="price">20.000đ</p>
             <button>Thêm vào giỏ</button>
@@ -115,3 +115,4 @@ export default function ProductsPage() {
     </>
   );
 }
+
