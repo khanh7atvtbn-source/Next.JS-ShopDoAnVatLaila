@@ -26,7 +26,7 @@ export default function Home() {
         <h2 className="section-title">Đồ ăn vặt bán chạy nhất</h2>
         <div className="product-container">
           <div className="product-card">
-            <img src="/images/Khoai.jpg" />
+            <img src="/images/khoai.jpg" />
             <h3>Khoai tây chiên</h3>
             <p className="price">20.000đ</p>
             <button>Thêm vào giỏ</button>
