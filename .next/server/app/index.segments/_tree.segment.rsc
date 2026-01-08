@@ -10,4 +10,4 @@
 :HL["images/lapxuong.jpg","image"]
 :HL["images/xucxichchien.jpg","image"]
 :HL["images/khogalachanh.jpg","image"]
-0:{"buildId":"avWD25EY72u04MrZc7Hdq","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+0:{"buildId":"rofxc38VAhJ4_vf3fGcFs","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}

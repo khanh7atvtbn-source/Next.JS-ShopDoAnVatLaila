@@ -140,8 +140,8 @@ self.__SERVER_FILES_MANIFEST={
       "isExperimentalCompile": false
     }
   },
-  "appDir": "/home/ubuntu/Next.JS-ShopDoAnVatLaila/Next.JS-ShopDoAnVatLaila",
-  "relativeAppDir": "Next.JS-ShopDoAnVatLaila/Next.JS-ShopDoAnVatLaila",
+  "appDir": "/home/ubuntu/Next.JS-ShopDoAnVatLaila",
+  "relativeAppDir": "Next.JS-ShopDoAnVatLaila",
   "files": [
     ".next/routes-manifest.json",
     ".next/server/pages-manifest.json",
