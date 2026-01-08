@@ -1,3 +1,0 @@
-module.exports=[44881,a=>{a.n(a.i(60012))},64781,a=>{a.n(a.i(9080))},5619,a=>{a.n(a.i(9996))},13835,a=>{a.n(a.i(80682))},68970,a=>{a.n(a.i(52147))},19454,a=>{"use strict";var b=a.i(16421);function c(){return(0,b.jsx)("div",{children:(0,b.jsx)("h1",{children:"Danh sách sản phẩm"})})}a.s(["default",()=>c,"metadata",0,{title:"Products"}])}];
-
-//# sourceMappingURL=Next_JS-ShopDoAnVatLaila_a1f57917._.js.map
