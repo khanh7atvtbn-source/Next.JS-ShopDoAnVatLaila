@@ -1,0 +1,13 @@
+:HL["/_next/static/chunks/2892612aa5530565.css","style"]
+:HL["/images/psd.jpg","image"]
+:HL["/images/khoai.jpg","image"]
+:HL["/images/garan.jpg","image"]
+:HL["images/banhtrangtron.jpg","image"]
+:HL["images/nemchuaran.jpg","image"]
+:HL["images/xienque.jpg","image"]
+:HL["images/bimbim.jpg","image"]
+:HL["images/xoailac.jpg","image"]
+:HL["images/lapxuong.jpg","image"]
+:HL["images/xucxichchien.jpg","image"]
+:HL["images/khogalachanh.jpg","image"]
+0:{"buildId":"zlHJbG-g5ZCBGwTqNXmh4","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}

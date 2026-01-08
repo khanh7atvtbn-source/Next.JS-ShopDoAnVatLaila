@@ -1,19 +1,12 @@
-import "./globals.css";
-
 export const metadata = {
-  title: "Next.js LAN",
-  description: "Deploy Next.js on Ubuntu LAN",
+  title: "Products",
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function ProductsPage() {
   return (
-    <html lang="vi">
-      <body>{children}</body>
-    </html>
+    <div>
+      <h1>Danh sách sản phẩm</h1>
+    </div>
   );
 }
 

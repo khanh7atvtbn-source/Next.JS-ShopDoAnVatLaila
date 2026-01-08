@@ -1,0 +1,13 @@
+var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/_not-found/page.js")
+R.c("server/chunks/ssr/Next_JS-ShopDoAnVatLaila_Next_JS-ShopDoAnVatLaila_b2a63224._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__6bc5caea._.js")
+R.c("server/chunks/ssr/9db25_next_dist_esm_build_templates_app-page_81b1abfd.js")
+R.c("server/chunks/ssr/[root-of-the-server]__cb8a4c0a._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__afc28125._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__a9046a82._.js")
+R.c("server/chunks/ssr/Next_JS-ShopDoAnVatLaila_Next_JS-ShopDoAnVatLaila_app_layout_tsx_53146a05._.js")
+R.c("server/chunks/ssr/9db25_next_dist_client_components_68a69eb3._.js")
+R.c("server/chunks/ssr/9db25_next_dist_client_components_builtin_forbidden_a51cd13f.js")
+R.c("server/chunks/ssr/cbc42_JS-ShopDoAnVatLaila__next-internal_server_app__not-found_page_actions_d6f9984c.js")
+R.m(64921)
+module.exports=R.m(64921).exports
