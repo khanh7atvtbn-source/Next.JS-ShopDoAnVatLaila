@@ -3,7 +3,7 @@ export const metadata = {
 };
 
 const products = [
-  { name: "Khoai tây chiên", price: 20000, image: "/images/Khoai.jpg" },
+  { name: "Khoai tây chiên", price: 20000, image: "/images/khoai.jpg" },
   { name: "Gà rán", price: 30000, image: "/images/garan.jpg" },
   { name: "Bánh tráng trộn", price: 15000, image: "/images/banhtrangtron.jpg" },
   { name: "Nem chua rán", price: 22000, image: "/images/nemchuaran.jpg" },
