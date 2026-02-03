@@ -10,7 +10,8 @@ export default function Page() {
           </a>
         </div>
       </section>
-
+      
+      {/* SẢN PHẨM NỔI BẬT */}
       <section className="product-section">
         <h2 className="section-title">Đồ ăn vặt bán chạy nhất</h2>
         <div className="product-container">
