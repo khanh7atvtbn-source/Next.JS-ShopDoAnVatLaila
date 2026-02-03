@@ -1,5 +1,10 @@
 import "./globals.css";
 
+export const metadata = {
+  title: "Shop Đồ Ăn Vặt Laila",
+  description: "Shop đồ ăn vặt online",
+};
+
 export default function RootLayout({
   children,
 }: {
@@ -7,30 +12,26 @@ export default function RootLayout({
 }) {
   return (
     <html lang="vi">
+      <head>
+        <link rel="stylesheet" href="/style.css" />
+        <script src="/scripts.js" defer></script>
+      </head>
       <body>
-        {/* HEADER */}
         <header className="main-header">
           <div className="header-container">
             <div className="logo">KTHShop</div>
             <nav className="nav-menu">
               <a href="/">Trang chủ</a>
               <a href="/products">Sản phẩm</a>
-              <a href="#contact">Liên hệ</a>
               <a href="#">Giỏ hàng</a>
             </nav>
           </div>
         </header>
 
-        {/* PAGE CONTENT */}
         {children}
 
-        {/* FOOTER */}
-        <footer className="site-footer">
-          <p>© 2025 - Shop Đồ Ăn Vặt Laila</p>
-          <p>📞 0919 149 361 | 📧 kthshop@gmail.com</p>
-        </footer>
+        <footer>© 2025 - Shop Đồ Ăn Vặt Laila</footer>
       </body>
     </html>
   );
 }
-
