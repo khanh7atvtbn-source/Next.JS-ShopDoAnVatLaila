@@ -1,14 +1,3 @@
-"use client";
-
-import Image from "next/image";
-import Link from "next/link";
-import { useState } from "react";
-import "./globals.css";
-
-type CartItem = {
-  name: string;
-  price: number;
-};
 
 export default function ProductsPage() {
   const [cart, setCart] = useState<CartItem[]>([]);
