@@ -1,3 +1,5 @@
+"use client";
+
 export default function ProductsPage() {
   return (
     <main>
@@ -11,7 +13,6 @@ export default function ProductsPage() {
 
       <section className="product-list">
         <div className="product-container">
-
           {[
             { name: "Khoai tây chiên", price: 20000, img: "khoai.jpg" },
             { name: "Gà rán", price: 30000, img: "garan.jpg" },
@@ -28,17 +29,17 @@ export default function ProductsPage() {
               <img src={`/images/${p.img}`} />
               <h3>{p.name}</h3>
               <p className="price">{p.price.toLocaleString()}đ</p>
+
               <button
-                onClick={() =>
+                onClick={() => {
                   // @ts-ignore
-                  addToCart(p.name, p.price)
-                }
+                  window.addToCart(p.name, p.price);
+                }}
               >
                 Thêm vào giỏ
               </button>
             </div>
           ))}
-
         </div>
       </section>
 
@@ -48,7 +49,15 @@ export default function ProductsPage() {
         <p>
           Tổng: <span id="totalPrice">0</span> đ
         </p>
-        <button onClick={() => clearCart()}>Xoá giỏ hàng</button>
+
+        <button
+          onClick={() => {
+            // @ts-ignore
+            window.clearCart();
+          }}
+        >
+          Xoá giỏ hàng
+        </button>
       </section>
 
       <div id="toast" className="toast">✔ Đã thêm vào giỏ hàng</div>
