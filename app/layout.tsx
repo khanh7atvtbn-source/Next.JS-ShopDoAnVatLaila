@@ -1,67 +1,36 @@
-let cart = JSON.parse(localStorage.getItem("cart")) || [];
+import "./globals.css";
 
-// Thêm vào giỏ
-function addToCart(name, price) {
-  const item = cart.find((p) => p.name === name);
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="vi">
+      <body>
+        {/* HEADER */}
+        <header className="main-header">
+          <div className="header-container">
+            <div className="logo">KTHShop</div>
+            <nav className="nav-menu">
+              <a href="/">Trang chủ</a>
+              <a href="/products">Sản phẩm</a>
+              <a href="#contact">Liên hệ</a>
+              <a href="#">Giỏ hàng</a>
+            </nav>
+          </div>
+        </header>
 
-  if (item) {
-    item.quantity++;
-  } else {
-    cart.push({
-      name: name,
-      price: price,
-      quantity: 1,
-    });
-  }
+        {/* PAGE CONTENT */}
+        {children}
 
-  localStorage.setItem("cart", JSON.stringify(cart));
-  loadCart();
-  showToast();
-}
-function animateButton(btn) {
-  btn.classList.add("bounce");
-  setTimeout(() => btn.classList.remove("bounce"), 300);
-}
-
-function clearCart() {
-  cart = [];
-  localStorage.removeItem("cart");
-  loadCart();
-}
-
-// Hiện thông báo
-function showToast() {
-  const toast = document.getElementById("toast");
-  if (!toast) return;
-
-  toast.classList.add("show");
-
-  setTimeout(() => {
-    toast.classList.remove("show");
-  }, 1500);
+        {/* FOOTER */}
+        <footer className="site-footer">
+          <p>© 2025 - Shop Đồ Ăn Vặt Laila</p>
+          <p>📞 0919 149 361 | 📧 kthshop@gmail.com</p>
+        </footer>
+      </body>
+    </html>
+  );
 }
 
-// Load giỏ hàng
-function loadCart() {
-  const list = document.getElementById("cartList");
-  const totalPrice = document.getElementById("totalPrice");
-
-  if (!list || !totalPrice) return;
-
-  list.innerHTML = "";
-  let total = 0;
-
-  cart.forEach((item) => {
-    total += item.price * item.quantity;
-    list.innerHTML += `
-      <li>
-        ${item.name} - ${item.price.toLocaleString()}đ × ${item.quantity}
-      </li>
-    `;
-  });
-
-  totalPrice.textContent = total.toLocaleString();
-}
-
-
-window.onload = loadCart; 
