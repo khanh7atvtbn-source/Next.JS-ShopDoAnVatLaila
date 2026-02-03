@@ -99,6 +99,7 @@ export default function ProductsPage() {
         </p>
         <button onClick={clearCart}>Xoá giỏ hàng</button>
       </section>
+    </>
   );
 }
 
