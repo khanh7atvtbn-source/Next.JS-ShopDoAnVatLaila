@@ -33,6 +33,7 @@ export default function ProductsPage() {
     { name: "Xúc xích chiên", price: 10000, img: "/images/xucxichchien.jpg" },
     { name: "[500gram] Khô gà lá chanh", price: 90000, img: "/images/khogalachanh.jpg" },
   ];
+  return (
       {/* BANNER */}
       <section className="banner">
         <div className="banner-content">
@@ -85,6 +86,7 @@ export default function ProductsPage() {
         <button onClick={clearCart}>Xoá giỏ hàng</button>
       </section>
     </>
+  <footer>© 2025 - Shop Đồ Ăn Vặt Laila</footer>
   );
 }
 
