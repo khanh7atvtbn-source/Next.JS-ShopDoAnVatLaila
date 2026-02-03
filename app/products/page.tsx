@@ -4,6 +4,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
+type CartItem = {
+  name: string;
+  price: number;
+};
+
 export default function ProductsPage() {
   const [cart, setCart] = useState<CartItem[]>([]);
   const totalPrice = cart.reduce((sum, item) => sum + item.price, 0);
