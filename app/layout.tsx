@@ -64,4 +64,4 @@ function loadCart() {
 }
 
 
-window.onload = loadCart; cái này cho vào dc k
+window.onload = loadCart; 
