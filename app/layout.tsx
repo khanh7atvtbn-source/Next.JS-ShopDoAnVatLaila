@@ -23,6 +23,7 @@ export default function RootLayout({
             <nav className="nav-menu">
               <a href="/">Trang chủ</a>
               <a href="/products">Sản phẩm</a>
+              <a href="/#contact">Liên hệ</a>
               <a href="#">Giỏ hàng</a>
             </nav>
           </div>
