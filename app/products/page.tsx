@@ -33,21 +33,6 @@ export default function ProductsPage() {
     { name: "Xúc xích chiên", price: 10000, img: "/images/xucxichchien.jpg" },
     { name: "[500gram] Khô gà lá chanh", price: 90000, img: "/images/khogalachanh.jpg" },
   ];
-
-  return (
-    <>
-      {/* HEADER */}
-      <header className="main-header">
-        <div className="header-container">
-          <div className="logo">KTHShop</div>
-          <nav className="nav-menu">
-            <Link href="/">Trang chủ</Link>
-            <Link href="/products">Sản phẩm</Link>
-            <Link href="#">Giỏ hàng</Link>
-          </nav>
-        </div>
-      </header>
-
       {/* BANNER */}
       <section className="banner">
         <div className="banner-content">
