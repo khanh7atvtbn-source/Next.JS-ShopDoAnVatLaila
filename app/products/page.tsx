@@ -33,7 +33,8 @@ export default function ProductsPage() {
     { name: "Xúc xích chiên", price: 10000, img: "/images/xucxichchien.jpg" },
     { name: "[500gram] Khô gà lá chanh", price: 90000, img: "/images/khogalachanh.jpg" },
   ];
-  return (
+   return (
+    <>
       {/* BANNER */}
       <section className="banner">
         <div className="banner-content">
@@ -48,7 +49,6 @@ export default function ProductsPage() {
           <Link href="/">⬅ Quay về trang chủ</Link>
         </div>
       </section>
-
       {/* PRODUCT LIST */}
       <section className="product-list">
         <div className="product-container">
