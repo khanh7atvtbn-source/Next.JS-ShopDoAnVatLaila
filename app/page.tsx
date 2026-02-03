@@ -1,17 +1,16 @@
 export default function Page() {
   return (
     <>
-      <header className="main-header">
-        <div className="header-container">
-          <div className="logo">KTHShop</div>
-          <nav className="nav-menu">
-            <a href="/">Trang chủ</a>
-            <a href="/products">Sản phẩm</a>
-            <a href="#contact">Liên hệ</a>
-            <a href="#">Giỏ hàng</a>
-          </nav>
+      {/* BANNER */}
+      <section className="banner">
+        <div className="banner-content">
+          <img src="/images/psd.jpg" alt="Banner" />
+          <a href="/products" className="cta-button">
+            MUA NGAY
+          </a>
         </div>
-      </header>
+      </section>
+
 
       <section className="banner">
         <div className="banner-content">
@@ -97,10 +96,7 @@ export default function Page() {
         </div>
       </section>
 
-      <footer className="site-footer">
-        <p>© 2025 - Shop Đồ Ăn Vặt Laila</p>
-        <p>📞 0919 149 361 | 📧 kthshop@gmail.com</p>
-      </footer>
+    
     </>
   );
 }
