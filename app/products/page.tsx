@@ -22,7 +22,7 @@ export default function ProductsPage() {
   };
 
   const products = [
-    { name: "Khoai tây chiên", price: 20000, img: "/images/Khoai.jpg" },
+    { name: "Khoai tây chiên", price: 20000, img: "/images/khoai.jpg" },
     { name: "Gà rán", price: 30000, img: "/images/garan.jpg" },
     { name: "Bánh tráng trộn", price: 15000, img: "/images/banhtrangtron.jpg" },
     { name: "Nem chua rán", price: 22000, img: "/images/nemchuaran.jpg" },
