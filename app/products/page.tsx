@@ -99,10 +99,6 @@ export default function ProductsPage() {
         </p>
         <button onClick={clearCart}>Xoá giỏ hàng</button>
       </section>
-
-      {/* FOOTER */}
-      <footer>© 2025 - Shop Đồ Ăn Vặt Laila</footer>
-    </>
   );
 }
 
