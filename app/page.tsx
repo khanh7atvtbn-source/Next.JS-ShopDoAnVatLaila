@@ -8,14 +8,7 @@ export default function HomePage() {
             <a href="/products" className="cta-button">
               MUA NGAY
             </a>
-
           <h1 className="title-border">🍟 Shop Đồ Ăn Vặt Laila</h1>
-
-          <div className="banner-buttons">
-            <a href="/products" className="cta-button">
-              MUA NGAY
-            </a>
-
             <a href="/products" className="secondary-button">
               Xem sản phẩm
             </a>
