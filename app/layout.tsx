@@ -1,4 +1,5 @@
 import "./globals.css";
+import Script from "next/script";
 
 export const metadata = {
   title: "Shop Đồ Ăn Vặt Laila",
@@ -14,8 +15,8 @@ export default function RootLayout({
     <html lang="vi">
       <head>
         <link rel="stylesheet" href="/style.css" />
-        <script src="/scripts.js" defer></script>
       </head>
+
       <body>
         <header className="main-header">
           <div className="header-container">
@@ -32,6 +33,9 @@ export default function RootLayout({
         {children}
 
         <footer>© 2025 - Shop Đồ Ăn Vặt Laila</footer>
+
+        {/* LOAD SCRIPT SAU KHI TRANG RENDER */}
+        <Script src="/scripts.js" strategy="afterInteractive" />
       </body>
     </html>
   );
