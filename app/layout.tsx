@@ -1,7 +1,7 @@
 import "./globals.css";
 import Script from "next/script";
 
-<Script src="/script.js" strategy="afterInteractive" />
+<Script src="/scripts.js" strategy="afterInteractive" />
 export const metadata = {
   title: "Shop Đồ Ăn Vặt Laila",
   description: "Shop đồ ăn vặt online",
