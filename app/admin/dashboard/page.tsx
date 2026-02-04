@@ -1,22 +1,17 @@
 "use client";
 
-export default function AdminLogin() {
+export default function AdminDashboard() {
   return (
     <main style={{ padding: 40 }}>
-      <h1>Admin Login</h1>
+      <h1>Trang quản trị</h1>
 
-      <input placeholder="Username" />
-      <br /><br />
-      <input type="password" placeholder="Password" />
+      <p>Upload hình ảnh sản phẩm</p>
+
+      <input type="file" />
       <br /><br />
 
-      <button
-        onClick={() => {
-          alert("Đăng nhập admin thành công");
-          window.location.href = "/admin/dashboard";
-        }}
-      >
-        Đăng nhập
+      <button onClick={() => alert("Upload thành công")}>
+        Upload
       </button>
     </main>
   );
