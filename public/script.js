@@ -1,15 +1,15 @@
 let cart = JSON.parse(localStorage.getItem("cart")) || [];
 
-// Thêm vào giỏ
-function addToCart(name, price) {
+// THÊM VÀO GIỎ
+window.addToCart = function (name, price) {
   const item = cart.find((p) => p.name === name);
 
   if (item) {
     item.quantity++;
   } else {
     cart.push({
-      name: name,
-      price: price,
+      name,
+      price,
       quantity: 1,
     });
   }
@@ -17,31 +17,30 @@ function addToCart(name, price) {
   localStorage.setItem("cart", JSON.stringify(cart));
   loadCart();
   showToast();
-}
-function animateButton(btn) {
-  btn.classList.add("bounce");
-  setTimeout(() => btn.classList.remove("bounce"), 300);
-}
+};
 
-function clearCart() {
+window.clearCart = function () {
   cart = [];
   localStorage.removeItem("cart");
   loadCart();
-}
+};
 
-// Hiện thông báo
+// HIỆU ỨNG NÚT (nếu dùng)
+window.animateButton = function (btn) {
+  btn.classList.add("bounce");
+  setTimeout(() => btn.classList.remove("bounce"), 300);
+};
+
+// TOAST
 function showToast() {
   const toast = document.getElementById("toast");
   if (!toast) return;
 
   toast.classList.add("show");
-
-  setTimeout(() => {
-    toast.classList.remove("show");
-  }, 1500);
+  setTimeout(() => toast.classList.remove("show"), 1500);
 }
 
-// Load giỏ hàng
+// LOAD GIỎ
 function loadCart() {
   const list = document.getElementById("cartList");
   const totalPrice = document.getElementById("totalPrice");
